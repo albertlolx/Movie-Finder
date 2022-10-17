@@ -1,0 +1,154 @@
+/* general*/
+
+body {
+    margin: 0;
+    width: 99.4vw;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 700px;
+    height: 100%;
+    border-bottom: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 25%;
+    background-image: url("https://images.unsplash.com/photo-1483982258113-b72862e6cff6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    background-size: cover;
+    border-left: 5px solid black;
+    border-right: 5px solid black
+}
+
+.search-container {
+    margin-top: -20px;
+    width: 100%;
+    width: 80%;
+    display: flex;
+    margin-left: 10%;
+    height: 40px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 7.5px;
+}
+
+.movie-input {
+    width: 80%;
+    margin-left: 15px;
+}
+
+.movie-input:focus, .movie-input:active {
+    outline: none;
+}
+
+.movie-input, .search-btn {
+    border: none;
+    height: 100%;
+    font-weight: 700;
+    font-size: 1rem;
+    background-color: white;
+    color: black;
+}
+
+.search-btn {
+    width: 20%;
+    border-top-right-radius: 7.5px;
+    border-bottom-right-radius: 7.5px;
+    border-left: 1px solid black;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    color: grey;
+}
+
+/* typography*/
+
+.title {
+    font-size: 2.75rem;
+    font-weight: 800;
+}
+
+.header-text {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-icon {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+
+/* movie results */
+main {
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    min-height: 99vh;
+}
+
+.movies-container {
+    margin-top: 50px;
+}
+
+.movie, .movie-header, .movie-info {
+	display: flex;
+    margin: 0;
+}
+
+.movie-title {
+    font-size: 1.25rem;
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+.movie-poster-img {
+    height: 250px;
+
+}
+
+.movie {
+	height: 300px;
+	width: 80%;
+    margin-bottom: 50px;
+    border-bottom: 1px solid black;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.runtime, .genre, .rating , .movie-title {
+	margin: 0;
+}
+
+.runtime {
+    margin-right: 10px;
+}
+
+.genre {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.rating {
+    font-size: 1.1rem;
+    margin-top: -25px;
+    margin-left: 10px;
+    border: 2.5px solid black;
+    padding: 2px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.description {
+    font-size: 1rem;
+}
+
+.movie .main {
+    margin-left: 15px;
+}
